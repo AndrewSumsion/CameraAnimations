@@ -1,0 +1,8 @@
+# How the plugin calculates and gets around Bezier curves being a parametric function.
+# Two options: "explicit" or "plotted".
+# Explicit (recommended) is heavier on CPU; plotted is heavier on RAM. Pick your poison. ;)
+bezier-calculation: explicit
+
+# How accurate the Bezier curve is generated (smaller is more accurate)
+# WARNING: The smaller the value, the more it will affect performance.
+bezier-accuracy: 0.05

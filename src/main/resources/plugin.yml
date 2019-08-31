@@ -1,0 +1,12 @@
+name: CameraAnimations
+main: io.github.AndrewSumsion.cameraanimations.CameraAnimations
+version: 1.0
+commands:
+  ctest:
+    description: A test command
+  keyframe:
+    description: A command for manipulating keyframes
+    aliases: [kf]
+  animation:
+    description: A command for playing and manipulating animations
+    aliases: [anim]
